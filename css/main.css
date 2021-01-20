@@ -1,0 +1,138 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #70C3FF;
+}
+
+.jumbotron {
+	background-color: #5674 !important;
+}
+p {
+	font-family: Decorative Script;
+	text-decoration: none;
+	color: #3E6680;
+	text-align: center;
+}
+h1 {
+	font-family: Decorative Script;
+	text-decoration: none;
+	color:  #3E6680;
+	text-align: center;
+}
+
+p,
+h5 {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #00487C;
+}
+
+.navbar {
+	background-color: #027BCE !important;
+}
+
+
+.fa {
+	padding: 10px;
+	font-size: 50px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #027BCE;
+	color: white;
+}
+
+.fa-twitter {
+	background: #027BCE;
+	color: white;
+}
+
+.fa-youtube {
+	background: #027BCE;
+	color: white;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	background: #70c3ff;
+	color: #027BCE;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+footer {
+	text-align: center;
+	background-color: #00487C;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+#MyCarousel {
+	height: 400px;
+	width: auto;
+	overflow: hidden;
+}
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+img {
+	border: 3px solid #00487C;
+	border-radius: 10%;
+}
+
+.video-fluid {
+	width: 100%;
+	height: auto;
+
+}
+
+.pic .item {
+	position: relative;
+	overflow: hidden;
+}
+
+.pic .des {
+	background: #4bb3fd;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition: .3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
+
+
+}
+
+.pic .item:hover .des {
+	height: 100%;
+	background: #f973007d;
+	position: absolute;
+	width: 95%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+
